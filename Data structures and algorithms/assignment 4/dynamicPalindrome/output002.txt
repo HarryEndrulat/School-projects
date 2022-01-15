@@ -1,0 +1,2 @@
+the max palindrome is: iLikeIke44ekIekiLi
+The palindrome is of length: 18

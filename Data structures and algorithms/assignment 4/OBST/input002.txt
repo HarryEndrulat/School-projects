@@ -1,0 +1,12 @@
+11
+TAKE .25
+ON .25
+ME .25
+ILL .05
+BE .04
+GONE .06
+IN .05
+A .02
+DAY .03
+OR .04
+TWO .01

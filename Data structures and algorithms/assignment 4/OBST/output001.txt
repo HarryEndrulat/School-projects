@@ -1,0 +1,55 @@
+Node:
+Key: A
+probability: 0.15
+Parent: AA
+Left Child: None
+Right Child: None
+
+Node:
+Key: AA
+probability: 0.1
+Parent: ABBA
+Left Child: A
+Right Child: AB
+
+Node:
+Key: AB
+probability: 0.09
+Parent: AA
+Left Child: None
+Right Child: None
+
+Node:
+Key: ABBA
+probability: 0.25
+Parent: None
+Left Child: AA
+Right Child: BAAB
+
+Node:
+Key: B
+probability: 0.12
+Parent: BAAB
+Left Child: None
+Right Child: BA
+
+Node:
+Key: BA
+probability: 0.08
+Parent: B
+Left Child: None
+Right Child: None
+
+Node:
+Key: BAAB
+probability: 0.1
+Parent: ABBA
+Left Child: B
+Right Child: BB
+
+Node:
+Key: BB
+probability: 0.11
+Parent: BAAB
+Left Child: None
+Right Child: None
