@@ -1,0 +1,6 @@
+Item: 6 , weight: 3 , value: 9
+Item: 4 , weight: 5 , value: 10
+Item: 3 , weight: 2 , value: 7
+Item: 1 , weight: 10 , value: 22
+Optimal weight: 20
+Optimal value: 48.0

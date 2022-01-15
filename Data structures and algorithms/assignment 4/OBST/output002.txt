@@ -1,0 +1,76 @@
+Node:
+Key: A
+probability: 0.02
+Parent: BE
+Left Child: None
+Right Child: None
+
+Node:
+Key: BE
+probability: 0.04
+Parent: GONE
+Left Child: A
+Right Child: DAY
+
+Node:
+Key: DAY
+probability: 0.03
+Parent: BE
+Left Child: None
+Right Child: None
+
+Node:
+Key: GONE
+probability: 0.06
+Parent: ME
+Left Child: BE
+Right Child: ILL
+
+Node:
+Key: ILL
+probability: 0.05
+Parent: GONE
+Left Child: None
+Right Child: IN
+
+Node:
+Key: IN
+probability: 0.05
+Parent: ILL
+Left Child: None
+Right Child: None
+
+Node:
+Key: ME
+probability: 0.25
+Parent: ON
+Left Child: GONE
+Right Child: None
+
+Node:
+Key: ON
+probability: 0.25
+Parent: None
+Left Child: ME
+Right Child: TAKE
+
+Node:
+Key: OR
+probability: 0.04
+Parent: TAKE
+Left Child: None
+Right Child: None
+
+Node:
+Key: TAKE
+probability: 0.25
+Parent: ON
+Left Child: OR
+Right Child: TWO
+
+Node:
+Key: TWO
+probability: 0.01
+Parent: TAKE
+Left Child: None
+Right Child: None

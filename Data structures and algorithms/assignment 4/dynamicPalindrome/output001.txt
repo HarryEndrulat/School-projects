@@ -1,0 +1,2 @@
+the max palindrome is: xbdshghsdbx
+The palindrome is of length: 11
