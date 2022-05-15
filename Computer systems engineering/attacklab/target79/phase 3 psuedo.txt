@@ -1,0 +1,9 @@
+add buffer to rsp (in little endian) then move to rdi
+return
+padding(out to 40 including the previous commands)
+return adress rsp
+touch 3 address
+cookie string
+
+total length of file should be buffer + cookie(53374143) string
+cookie string : "S7AC"(in text) "35 33 33 37 34 31 34 33"(in hex)

@@ -1,0 +1,17 @@
+STUDENT: Harry Endrulat
+
+1. WHY DOESN'T THE LOOP ON LINES 24-30 OF ARCHIE'S FIRST PROGRAM ALWAYS EXECUTE?
+	"int i;" inside count is a non-static variable. This means it could really be initialized to anything, just by chance sometimes it is initialized to 0
+
+
+
+2. ARCHIE'S CODE CAN BE FIXED BY CHANGING ONE LINE. IT CAN ALSO BE FIXED BY
+   INSERTING ONE LINE. WHAT LINE CAN BE CHANGED TO FIX THE BUG, AND WHAT SHOULD
+   THE LINE BE CHANGED TO? (ALTERNATIVELY, WHAT LINE OF CODE CAN YOU INSERT TO
+   FIX THE BUG, AND WHERE SHOULD THAT LINE GO?)
+	line 16 modifies the value at the address "result" to 6 which sum is still pointing to. i don't know how to do this in one line.
+
+
+3. WHY DOES *sum - *product ON LINE 25 OF ARCHIE'S SECOND PROGRAM PRODUCE THE
+   VALUE 0?
+	line 16 modifies the value at the address "result" to 6 which sum is also pinting to. *sum and *product are pointing to the same address	

@@ -1,0 +1,21 @@
+STUDENT: Harry Endrulat
+
+
+1. WHY DOES IS_PAIR() RETURN A 1 WHEN THE HAND CONTAINS AT LEAST TWO CARDS WITH
+   THE SAME VALUE? - any positive value in C is evaluated as true
+   WHY DOES IT RETURN A 0 WHEN THE HAND CONTAINS NO PAIRS? 0 and negative values are interpreted as flase in the boolean logic
+
+
+
+
+2. WHY DOES IS_FLUSH() RETURN A 1 WHEN ALL CARDS IN THE HAND HAVE THE SAME SUIT?
+   WHY DOES IT RETURN A 0 WHEN AT LEAST TWO CARDS HAVE DIFFERENT SUITS? 
+   esentaily the same reasons as question 1. Zero's are evaluated as false and any positive as true
+
+
+
+
+3. WHY DOES IS_STRAIGHT() RETURN A 1 WHEN ALL CARDS IN THE HAND ARE IN SEQUENCE? 1 is evaluated as true and 0 as false
+   WHY DOES IT RETURN A 0 WHEN THEY ARE NOT IN SEQUENCE?
+
+

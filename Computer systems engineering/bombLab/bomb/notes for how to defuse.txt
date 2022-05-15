@@ -1,0 +1,6 @@
+look up chapter 6 power point slides. understand what each assembly code instruction is doing to your input 
+within each phase.
+
+Command descriptions:
+
+lea: primarily used to set pointers

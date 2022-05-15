@@ -1,0 +1,59 @@
+STUDENT: Harry Endrulat
+
+1. WHAT IS THE MICROCONTROLLER'S CLOCK PERIOD, IN MICROSECONDS?
+1 cycle per .0625 microseconds
+
+
+2. WHAT IS THE REPORTED TIME REQUIRED TO ACCESS DATA IN A CPU REGISTER?  
+.00014 microseconds per read
+
+
+3. WHAT CAN YOU CONCLUDE ABOUT THE TIME REUQIRED TO ACCESS DATA IN A CPU
+   REGISTER? IS THE REPORTED TIME SIGNIFICANT?
+Accessing data in the CPU register is REALLY fast. Magnitudes faster than the clock cycle,
+446 could occur within 1 clock period. the reported time is rather insignificant.
+
+4. WHAT IS THE REPORTED TIME REQUIRED TO ACCESS DATA IN SRAM?
+.12584 microseconds per read
+
+
+5. IS THE REPORTED TIME REQUIRED TO ACCESS DATA IN SRAM CONSISTENT WITH
+   INFORMATION IN THE ATmega328P DATA SHEET? EXPLAIN WHY OR WHY NOT.
+Yes it is. a clock cycle is .0625 microseconds and the data sheet says SRAM access takes
+2 clock cycles. .0625*2 = 0.125 microseconds, very close to the reported time.
+
+
+6. WHAT IS THE REPORTED TIME REQUIRED TO ACCESS DATA IN FLASH MEMORY?
+.40335 microseconds per read
+
+
+7. HOW MANY CLOCK CYCLES ARE REQUIRED TO ACCESS DATA IN FLASH MEMORY?
+.40335/.0625 = 6.4536 clock cycles per flash memory access
+
+
+8. WHAT CAN YOU CONCLUDE ABOUT THE RELATIVE SPEEDS OF SRAM AND FLASH MEMORY?
+relatively expensive in relation to the time taken to access data in a CPU register.
+CPU register access is preferred to SRAM access ir preferred to Flash memory access.
+
+9. WHAT IS YOUR ESTIMATE FOR THE SIZE OF THE INTEL XEON'S L1 CACHE?
+32KB
+
+
+10. WHAT IS YOUR ESTIMATE FOR THE SIZE OF THE INTEL XEON'S L2 CACHE?
+192KB
+
+
+11. WHAT IS YOUR ESTIMATE FOR THE SIZE OF THE INTEL XEON'S L3 CACHE?
+8MB
+
+
+12. ARE YOU PROVIDING AN ESTIMATE FOR THE SIZE OF A CACHE LINE FOR THE INTEL
+    XEON OR FOR THE INTEL CORE i7?
+Intel Xeon
+
+
+13. WHAT IS YOUR ESTIMATE FOR THE SIZE OF A CACHE LINE IN THE PROCESSOR THAT
+    YOU IDENTIFIED IN QUESTION 12?
+8 bytes
+
+
