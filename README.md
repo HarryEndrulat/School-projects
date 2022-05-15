@@ -1,2 +1,2 @@
 # School-projects
-All projects i've completed for school
+All projects I, Harry Endrulat have completed for school
